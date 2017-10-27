@@ -56,3 +56,9 @@
 .top{
   padding:30px;
 }
+@media (max-width: 1000px) {
+  .indent{
+    margin-left:0px;
+    margin-top:0px;
+  }
+}
