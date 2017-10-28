@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('workspaceApp')
-  .controller('MainController',function($http, $scope, $timeout,$interval) {
+  .controller('MainController',function($http, $scope, $timeout,$interval,$cordovaOneSignal) {
+    this.oneSignal=$cordovaOneSignal.startInit('AAAAKSkN81s:APA91bHWoOq61bdthtlIxRkIttregM25hSgQcNhIJxY2v2NONUHnm3A_Ea3clPnR9oKnF1OGMjulsECa7GWCBXV8CVzPabBmRBtkWj5lt9HMQA4kB7pNn3lKculoL9o0_k2G5fDYoXQX','176782439259');
     this.$http = $http;
     this.awesomeThings = [];
     this.ceilings=[];

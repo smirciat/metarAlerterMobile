@@ -2,7 +2,7 @@
 window.onerror = function(errorMsg,url,lineNumber){
     alert('!' + errorMsg.substring(0,800) + '  ' + errorMsg.length + ' '  + url + ' ' + lineNumber);
 };
-angular.module('workspaceApp', ['ionic','ngCordova','workspaceApp.constants', 'ngCookies', 'ngResource', 'ngSanitize', 'ngTouch',
+angular.module('workspaceApp', ['ionic','ngCordova','ionic.native','workspaceApp.constants', 'ngCookies', 'ngResource', 'ngSanitize', 'ngTouch',
     'ui.router', 'ui.bootstrap'
   ])
 
