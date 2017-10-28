@@ -93,7 +93,6 @@ angular.module('workspaceApp')
           self.airports[index].visibility = parseInt(bits[0],10)/parseInt(bits[1],10);
         }
         self.airports[index].visibility=parseFloat(self.airports[index].visibility);
-        if (self.airports[index].visibility<2) self.airports[index].visibility=self.airports[index].visibility.toFixed(2);
         self.airports[index].visibilityColor=self.weatherClass(self.airports[index].visibility,'visibility');
         self.airports[index].ceilingColor=self.weatherClass(self.airports[index].ceiling,'ceiling');
         self.airports[index].windColor=self.windClass(self.airports[index].wind);

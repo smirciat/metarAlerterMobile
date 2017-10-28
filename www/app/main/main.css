@@ -32,6 +32,11 @@
   font-size:200%;
   background: gray;
 }
+
+.cell.a{
+  border-width:5px 5px 5px 0px;
+}
+
 .cell.green{
   background:green;
 }
@@ -59,8 +64,7 @@
 }
 @media (max-width: 1000px) {
   .indent{
-    margin:auto;
-    width:550px;
+    margin-left:25px;
     margin-top:15px;
   }
 }

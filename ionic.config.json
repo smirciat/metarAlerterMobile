@@ -1,9 +1,10 @@
 {
   "name": "metar-alerter",
-  "app_id": "",
+  "app_id": "20849a75",
   "type": "ionic1",
   "integrations": {
-    "gulp": {}
+    "gulp": {},
+    "cordova": {}
   },
   "watchPatterns": [
     "scss/**/*",
